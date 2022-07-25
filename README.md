@@ -10,17 +10,20 @@ Make a longer guide by chaining the guides. Simply overlap guides over 2-3 ribs.
 
 Suggested material: 2-3mm plywood or similar. Don't use balsa. Lay down with horizontal grain (eg grain direction should match url bars).
 
+## Formats explained:
+ - rib-guide-A-BxC-x.y.* - this is a set of guides with A mm and B mm spacing, and C mm thick ribs. At the end is the version, x.y
+ - rib-guide-*.svg - "plain svg" as saved by inkscape. I use laserGRBL to directly import it
+ - rib-guide-*-RASTER.svg - raster overlay containing description
+ - rib-guide-*.nc - laserGRBL project file. The settings might or might not be compatible with your laser.
+
 ## Files provided:
 
+ - examples - photos on how I'm using the guides (coming soon)
  - LICENSE - read it!
  - README.md - this file
- - rib-guide-50-47x2-1.0-RASTER.png
- - rib-guide-50-47x2-1.0x100.gcode (*)
- - rib-guide-50-47x2-1.0x65.gcode (*)
- - rib-guide-50-47x2-1.0x80.gcode (*)
- - rib-guide-50-47x2-1.0.dxf
- - rib-guide-50-47x2-1.0.nc - LaserGRBL project file (*)
- - rib-guide-50-47x2-1.0.svg - main vector file "plain svg"
+ - rib-guide-50-47x2-1.0.svg/png/nc - suitable for 900~950mm wingspan
+ - rib-guide-59.9-62.5x1.5-1.0.svg/png - guides for a well known "super" control line kit
+
 
 * - these files are gcode compiled for my machine/setup and might or 
     might not work for you directly. In that case just use the vector files
